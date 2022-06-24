@@ -1,0 +1,34 @@
+/* Write your CSS here */
+@media screen and (max-width: 768px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .not-found-container h1 {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .not-found-container h1 {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 40px;
+    font-weight: 500;
+  }
+}

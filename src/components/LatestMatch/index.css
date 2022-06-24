@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.match-latest-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+}
+.match-details-logo-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+.latest-team-name,
+.latest-team-date,
+.latest-match-venue,
+.latest-match-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+.latest-team-date {
+  font-size: 22px;
+}
+.latest-match-venue {
+  font-size: 22px;
+}
+.latest-match-result {
+  font-size: 22px;
+}
+.latest-team-logo {
+  width: 170px;
+  height: 200px;
+}
+.question,
+.answer {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.answer {
+  font-size: 15px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .match-latest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .match-details-logo-container {
+    border-bottom: 2px solid #475569;
+  }
+  .latest-team-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .innings-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .latest-team-name {
+    font-size: 15px;
+  }
+  .latest-team-date {
+    font-size: 15px;
+  }
+  .latest-match-venue {
+    font-size: 15px;
+  }
+  .latest-match-result {
+    font-size: 15px;
+  }
+  .question {
+    font-size: 20px;
+  }
+  .answer {
+    font-size: 15px;
+  }
+}

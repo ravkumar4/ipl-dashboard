@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-RCB {
+  background: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.bg-CSK {
+  background: linear-gradient(to bottom, #f7db00, #13418b);
+}
+.bg-SH {
+  background: linear-gradient(to bottom, #f26d22, #5755a7);
+}
+.bg-MI {
+  background: linear-gradient(to bottom, #4f5db0, #ffffff33);
+}
+.bg-RR {
+  background: linear-gradient(to bottom, #da237b, #ffffff33);
+}
+.bg-KXP {
+  background: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.bg-DC {
+  background: linear-gradient(to bottom, #13418b, #a4261d);
+}
+.bg-DC {
+  background: linear-gradient(to bottom, #0f172a, #5755a7);
+}
+.banner-container {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  width: 80%;
+}
+.matches-item-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.recent-matches-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .recent-matches-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
